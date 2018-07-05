@@ -50,6 +50,10 @@ public abstract class BaseFingerprint {
         mHandler = new Handler(Looper.getMainLooper());
     }
 
+    public void setIsCanceledIdentify(boolean isCanceledIdentify) {
+        mIsCanceledIdentify = isCanceledIdentify;
+    }
+    
     // DO
     public void startIdentify(int maxAvailableTimes, FingerprintIdentifyListener listener) {
         mMaxAvailableTimes = maxAvailableTimes;
