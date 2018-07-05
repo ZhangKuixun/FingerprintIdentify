@@ -68,8 +68,8 @@ public class FingerprintIdentify {
         }
     }
 
-    public void setIsCanceledIdentify(){
-        mFingerprint.setIsCanceledIdentify();
+    public void setIsCanceledIdentify(boolean isCanceledIdentify){
+        mFingerprint.setIsCanceledIdentify(isCanceledIdentify);
     }
     
     // DO
