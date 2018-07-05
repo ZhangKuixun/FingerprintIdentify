@@ -68,6 +68,10 @@ public class FingerprintIdentify {
         }
     }
 
+    public void setIsCanceledIdentify(){
+        mFingerprint.setIsCanceledIdentify();
+    }
+    
     // DO
     public void startIdentify(int maxAvailableTimes, BaseFingerprint.FingerprintIdentifyListener listener) {
         if (!isFingerprintEnable()) {
